@@ -1,0 +1,454 @@
+.content1{
+    background-color: gray;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.content1 nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 0;
+}
+
+.content1 nav a{
+    margin: 0 20px;
+}
+
+.logo{
+    color: rebeccapurple;
+    margin: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.logo .logoName{
+    text-decoration: none;
+}
+
+.logoName span{
+    color: white;
+}
+
+/* >>>>><<<<< */
+
+.content1profil{
+    background-image: url("big-data-technology-business-finance-concept-1296x700.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    margin: 10% 1% 0 1%;
+    border-radius: 50px;
+}
+
+.profil1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5%;
+}
+
+.profil1 img{
+    width: 100px;
+    border-radius: 100px;
+    border: 3px solid green;
+}
+
+.profil1 h1, h3{
+    color: blue;
+}
+
+.profil1-btn button{
+    width: 150px;
+    height: 50px;
+    margin: 20px;
+    color: white;
+    background-color: green;
+    border-radius: 5px;
+}
+
+.profil1-btn button:hover{
+    background-color: yellow;
+}
+
+.profil1-btn button:active{
+    background-color: orange;
+}
+
+.icon{
+    font-size: 50px;
+}
+
+.icon i{
+    margin: 20px;
+    border-radius: 100px;
+    background-color: yellow;
+}
+
+.icon i:hover{
+    color: blue;
+}
+
+/* >>>>><<<<< */
+
+.content2{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2%;
+    border-bottom: 2px black solid;
+}
+
+.content2a{
+    width: 40%;
+    padding: 2%;
+    /* border: 2px black solid; */
+}
+
+.content2a button{
+    color: white;
+    background-color: green;
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+.content2b{
+    width: 40%;
+    padding: 2%;
+}
+
+.content2b img{
+    width: 90%;
+    border-radius: 10px;
+}
+
+/* ////////// */
+
+.content3{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2%;
+    border-top: 2px black solid;
+}
+
+.content3a{
+    width: 40%;
+    padding: 2%;
+}
+
+.content3a img{
+    width: 90%;
+    border-radius: 10px;
+}
+
+.content3b{
+    width: 40%;
+    padding: 2%;
+    /* border: 2px black solid; */
+}
+
+/* >>>>><<<<< */
+
+.atas1{
+    background-image: url("shutterstock_797265664.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    padding: 10% 20%;
+    margin: 0 1%;
+    border-radius: 50px;
+}
+
+.atas1 h2{
+    color: blue;
+}
+
+.atas1 p{
+    width: 80%;
+    font-weight: bold;
+}
+
+.atas1 button{
+    width: 100px;
+    height: 50px;
+    color: white;
+    background-color: blue;
+}
+
+.bawah1{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.bawah1-content{
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid black;
+    margin: 2%;
+    border-radius: 10px;
+}
+
+.bawah1-content i{
+    font-size: 50px;
+    margin: 20px;
+    padding: 2%;
+}
+
+/* >>>>><<<<< */
+
+.content4{
+    margin: 2%;
+}
+
+.content4 h2{
+    margin-left: 30px;
+}
+
+.picshowcase{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.piccontent{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.piccontent img{
+    width: 90%;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.piccontent p{
+    font-weight: bold;
+    color: green;
+}
+
+/* >>>>><<<<< */
+
+.content2download{
+    display: grid;
+    grid-template-columns: auto auto;
+    border-left: 5px solid green;
+    border-right: 5px solid green;
+    margin: 2%;
+    align-items: center;
+}
+
+.paragraph1{
+    padding: 20px;
+}
+
+.paragraph1 h3{
+    color: blue;
+}
+
+.button-dl-1 button{
+    width: 200px;
+    height: 50px;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+}
+
+/* >>>>><<<<< */
+
+.about1{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+
+.about1-left{
+    width: 50%;
+}
+
+.about1 h2{
+    text-align: center;
+}
+
+.about1-right{
+    width: 50%;
+}
+
+.bio1{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bio1-icon i{
+    margin: 0 20px 0 0;
+}
+
+/* ////////// */
+
+#checkbox_toggle1{
+    display: none;
+}
+
+.hamburger1{
+    display: none;
+    font-size: 24px;
+    user-select: none;
+}
+
+.list-menu1{
+    display: flex;
+}
+
+.list-menu1 li{
+    list-style: none;
+}
+
+.list-menu1 a{
+    text-decoration: none;
+}
+
+.list-menu1 a:hover{
+    color: yellow;
+    text-decoration: underline;
+}
+
+/* ////////// */
+
+footer{
+    background-color: gray;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sosmed0{
+    text-align: center;
+}
+
+.sosmed0 a{
+    text-decoration: none;
+}
+
+/* ////////// */
+
+@media(max-width:767px){
+    .logo{
+        font-size: 20px;
+        margin: 10px;
+    }
+
+    .logo .fa-dollar{
+        display: none;
+    }
+
+    #checkbox_toggle1{
+        display: none;
+    }
+    
+    .hamburger1{
+        display: block;
+    }
+
+    .list-menu1{
+        display: none;
+        position: absolute;
+        background-color: gray;
+        right: 0px;
+        left: 0px;
+        text-align: center;
+        padding: 16px 16px;
+        margin: 8px;
+    }
+
+    .list-menu1 li{
+        margin: 10px;
+    }
+
+    #checkbox_toggle1:checked ~ .list-menu1{
+        display: block;
+    }
+
+    /* ////////// */
+
+    .content1profil{
+        margin: 35% 1% 0 1%;
+    }
+
+    /* ////////// */
+
+    .content2{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .content2a{
+        width: 100%;
+    }
+    .content2a h1, .content2a p, .content2a button{
+        margin-left: 10px;
+    }
+
+    .content2b{
+        width: 100%;
+    }
+    
+    .content2b img{
+        width: 90%;
+    }
+
+    /* ////////// */
+
+    .content3{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .content3a{
+        width: 100%;
+    }
+    
+    .content3a img{
+        width: 90%;
+    }
+
+    .content3b{
+        width: 100%;
+    }
+    .content3b h1, .content3b p{
+        margin-left: 10px;
+    }    
+
+    /* ////////// */
+
+    .atas1{
+        padding: 10%;
+    }
+
+    .bawah1{
+        grid-template-columns: auto;
+    }
+
+    /* >>>>><<<<< */
+
+    .picshowcase{
+        grid-template-columns: auto;
+    }
+
+    /* ////////// */
+
+    .about1{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* ////////// */
+
+    footer{
+        flex-direction: column;
+        align-items: center;
+    }
+}
